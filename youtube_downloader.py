@@ -1,5 +1,6 @@
 import pytube
 
+
 def download_video(url, resolution):
     itag = choose_resolution(resolution)
     video = pytube.YouTube(url)
